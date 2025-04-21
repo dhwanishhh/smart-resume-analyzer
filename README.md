@@ -17,8 +17,10 @@ HR teams spend a lot of time manually screening resumes. This tool automates the
 - Python 3
 - Google Colab (Jupyter Notebook)
 - spaCy (NLP)
-- Sentence Transformers (BERT)
-- PDFMiner (PDF text extraction)
+- PyPDF
+- python-docx
+- Gradio
+- pyngrok
 
 ## 🧪 Features
 
@@ -26,7 +28,7 @@ HR teams spend a lot of time manually screening resumes. This tool automates the
 ✅ Extract structured data (skills, education, experience)  
 ✅ Input a job description  
 ✅ Score and rank resumes based on similarity to the job description  
-✅ View extracted information in real-time (via Colab)
+✅ View extracted information in real-time (via Colab and opened on gradio)
 
 ---
 
@@ -35,7 +37,7 @@ HR teams spend a lot of time manually screening resumes. This tool automates the
 1. Upload a resume in PDF format
 2. Paste a job description
 3. The model extracts relevant entities and computes a similarity score
-4. Results are displayed directly in the notebook
+4. Results are displayed directly in gradio site
 
 ## 🤝 Contributing
 
